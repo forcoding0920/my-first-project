@@ -28,6 +28,13 @@ class MyApp extends StatelessWidget {
               top: 200,
               left: 55,
               child: Container(
+                child: Padding(
+                  padding: const EdgeInsets.all(30),
+                  child: Text('연보라색이다',
+                      style: TextStyle(
+                        fontSize: 30,
+                      )),
+                ),
                 height: 500,
                 width: 300,
                 color: Colors.purple.shade100,
